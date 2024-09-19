@@ -1,0 +1,494 @@
+[
+  {
+    "ContainingType": "WebApplication8.Controllers.PredmetsController",
+    "Method": "GetPredmets",
+    "RelativePath": "api/Predmets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApplication8.Models.Predmet, WebApplication8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplication8.Controllers.PredmetsController",
+    "Method": "PostPredmet",
+    "RelativePath": "api/Predmets",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "predmet",
+        "Type": "WebApplication8.Models.Predmet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplication8.Models.Predmet",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplication8.Controllers.PredmetsController",
+    "Method": "GetPredmet",
+    "RelativePath": "api/Predmets/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int16",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplication8.Models.Predmet",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplication8.Controllers.PredmetsController",
+    "Method": "PutPredmet",
+    "RelativePath": "api/Predmets/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int16",
+        "IsRequired": true
+      },
+      {
+        "Name": "predmet",
+        "Type": "WebApplication8.Models.Predmet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication8.Controllers.PredmetsController",
+    "Method": "DeletePredmet",
+    "RelativePath": "api/Predmets/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int16",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication8.Controllers.Prijava_brojIndeksaController",
+    "Method": "PostPrijava",
+    "RelativePath": "api/Prijava_brojIndeksa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "prijava",
+        "Type": "WebApplication8.Models.Prijava_brojIndeksa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplication8.Models.Prijava_brojIndeksa",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplication8.Controllers.Prijava_brojIndeksaController",
+    "Method": "GetIspitPrijavas",
+    "RelativePath": "api/Prijava_brojIndeksa/Ispit/{IspitId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IspitId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.ICollection\u00601[[WebApplication8.Models.Prijava_brojIndeksa, WebApplication8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplication8.Controllers.Prijava_brojIndeksaController",
+    "Method": "GetPrijava",
+    "RelativePath": "api/Prijava_brojIndeksa/Student/{StudentId}/Ispit/{IspitId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StudentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "IspitId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplication8.Models.Prijava_brojIndeksa",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplication8.Controllers.StudentPredmetsController",
+    "Method": "GetAll",
+    "RelativePath": "api/StudentPredmets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.ICollection\u00601[[WebApplication8.Models.StudentPredmet, WebApplication8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplication8.Controllers.StudentPredmetsController",
+    "Method": "PostStudentPredmet",
+    "RelativePath": "api/StudentPredmets",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentPredmetDTO",
+        "Type": "WebApplication8.Controllers.StudentPredmetDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplication8.Models.StudentPredmet",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplication8.Controllers.StudentPredmetsController",
+    "Method": "GetStudentPredmet",
+    "RelativePath": "api/StudentPredmets/{IdStudenta}/{IdPredmeta}/{SkolskaGodina}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdStudenta",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "IdPredmeta",
+        "Type": "System.Int16",
+        "IsRequired": true
+      },
+      {
+        "Name": "SkolskaGodina",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplication8.Models.StudentPredmet",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplication8.Controllers.StudentPredmetsController",
+    "Method": "GetStudentsPredmets",
+    "RelativePath": "api/StudentPredmets/{studentId}/Predmets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication8.Controllers.StudentPredmetsController",
+    "Method": "DeleteStudentPredmet",
+    "RelativePath": "api/StudentPredmets/Student/{idStudenta}/Predmet/{idPredmeta}/SkolskaGodina/{skolskaGodina}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idStudenta",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idPredmeta",
+        "Type": "System.Int16",
+        "IsRequired": true
+      },
+      {
+        "Name": "skolskaGodina",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication8.Controllers.StudentPredmetsController",
+    "Method": "GetPrijava",
+    "RelativePath": "api/StudentPredmets/Student/{idStudenta}/Prijava",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idStudenta",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.ICollection\u00601[[WebApplication8.Models.Predmet, WebApplication8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplication8.Controllers.StudentsController",
+    "Method": "GetStudents",
+    "RelativePath": "api/Students",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication8.Controllers.StudentsController",
+    "Method": "PatchStudent",
+    "RelativePath": "api/Students/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "studentParams",
+        "Type": "WebApplication8.Controllers.StudentPatchBody",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication8.Controllers.StudentsController",
+    "Method": "SearchStudent",
+    "RelativePath": "api/Students/pretraga",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Ime",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Prezime",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Smer",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Broj",
+        "Type": "System.Nullable\u00601[[System.Int16, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "GodinaUpisa",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.ICollection\u00601[[WebApplication8.Models.Student, WebApplication8, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplication8.Controllers.ZapisniksController",
+    "Method": "PostZapisnik",
+    "RelativePath": "api/Zapisniks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "zapisnik",
+        "Type": "WebApplication8.Models.Zapisnik",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplication8.Models.Zapisnik",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplication8.Controllers.ZapisniksController",
+    "Method": "GetZapisnik",
+    "RelativePath": "api/Zapisniks/Student/{IdStudenta}/Ispit/{IdIspita}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdStudenta",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "IdIspita",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplication8.Models.Zapisnik",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplication8.Controllers.StudentsController",
+    "Method": "GetPolozeniPredmeti",
+    "RelativePath": "polozeni/{StudentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StudentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

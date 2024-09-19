@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ljubi\\source\\repos\\WebApplication8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B935A8E-9055-499D-8011-B7461D60E398}|WebApplication8\\WebApplication8.csproj|c:\\users\\ljubi\\source\\repos\\webapplication8\\webapplication8\\controllers\\studentpredmetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B935A8E-9055-499D-8011-B7461D60E398}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\controllers\\studentpredmetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentPredmetsController.cs",
+              "DocumentMoniker": "C:\\Users\\ljubi\\source\\repos\\WebApplication8\\WebApplication8\\Controllers\\StudentPredmetsController.cs",
+              "RelativeDocumentMoniker": "WebApplication8\\Controllers\\StudentPredmetsController.cs",
+              "ToolTip": "C:\\Users\\ljubi\\source\\repos\\WebApplication8\\WebApplication8\\Controllers\\StudentPredmetsController.cs",
+              "RelativeToolTip": "WebApplication8\\Controllers\\StudentPredmetsController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAcwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T15:08:03.349Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
